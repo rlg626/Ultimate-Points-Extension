@@ -156,6 +156,7 @@ class admin_controller
 				'transfer_fee' => $this->request->variable('transfer_fee', 0),
 				'number_show_per_page' => $this->request->variable('number_show_per_page', 0),
 				'number_show_top_points' => $this->request->variable('number_show_top_points', 0),
+				'points_per_reply' => $this->request->variable('points_per_reply',0.00. 0.1),
 				'points_per_attach' => round($this->request->variable('points_per_attach', 0.00), 2),
 				'points_per_attach_file' => round($this->request->variable('points_per_attach_file', 0.00), 2),
 				'points_per_poll' => round($this->request->variable('points_per_poll', 0.00), 2),
